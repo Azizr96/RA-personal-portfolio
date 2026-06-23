@@ -39,6 +39,12 @@ a{
   color: inherit;
 }
 
+/* global setting */
+.section-label {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -118,10 +124,7 @@ a{
   border-radius: 5px;
 }
 
-.navbar-collapse {
-  background-color: var(--bg-primary);
-  padding-bottom: 10px;
-}
+
 /* HERO SECTION */
 .hero {
   min-height: 100vh;
@@ -210,9 +213,27 @@ a{
 
 }
 
+
+/* about */
+
+.about {
+  min-height: 100vh;
+
+}
+
+.section-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
 /* media query */
 @media screen and (max-width: 575px){
-  
+  .navbar-collapse {
+  background-color: var(--bg-primary);
+  padding-bottom: 10px;
+}
   
   .nav-cta {
   display: none;
