@@ -15,3 +15,29 @@
   --section-pad:    120px;
 }
 
+/*reseting the site*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+a{
+
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAVBAR */
+
