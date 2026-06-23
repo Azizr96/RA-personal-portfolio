@@ -40,11 +40,19 @@ a{
 }
 
 /* global setting */
-.section-label {
-  color: var(--text-muted);
-  font-size: 1.2rem;
+
+
+.section-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-primary);
 }
 
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 /* NAVBAR */
 
 .navbar {
@@ -225,6 +233,11 @@ a{
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 2rem;
+  display: grid;
+}
+
+.about-grid {
+
 }
 
 
