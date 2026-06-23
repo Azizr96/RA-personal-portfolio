@@ -259,15 +259,20 @@ a{
   padding: 0 2rem;
 }
 
+.accordion {
+  margin-top: 10px;
+}
 .accordion-item {
   background-color: var(--bg-primary);
   color: var(--text-muted);
   border: var(--border);
+
 }
 
 .accordion-button {
   background-color: var(--bg-secondary);
-  color: var(--text-primary)
+  color: var(--text-primary);
+  border-radius: 4px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -286,6 +291,12 @@ a{
 .tag>img {
   width: 60px;
 }
+
+
+/* Projects */
+
+
+
 /* media query */
 @media screen and (max-width: 575px){
   .navbar-collapse {
