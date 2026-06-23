@@ -140,7 +140,6 @@ a{
 
 /* HERO SECTION */
 .hero {
-  min-height: 100vh;
   padding-top: 100px;
 
 }
@@ -230,7 +229,6 @@ a{
 /* about */
 
 .about {
-  min-height: 100vh;
   padding: 10px 0;
 
 }
@@ -251,7 +249,20 @@ a{
   color: var(--text-secondary);
 }
 
-.about-tags {
+
+
+/* SKILLS SECTION */
+
+#skills {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.skill-heading{
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -259,15 +270,16 @@ a{
 }
 
 .tag {
-  border: 2px solid var(--accent);
+  
   padding: 0.5rem 1.2rem;
   border-radius: 4px;
-  color: var(--accent);
+  color: var(--text-secondary);
 
 }
 
-
-
+.tag>img {
+  width: 60px;
+}
 /* media query */
 @media screen and (max-width: 575px){
   .navbar-collapse {
