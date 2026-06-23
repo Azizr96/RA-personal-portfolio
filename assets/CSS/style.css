@@ -1,0 +1,17 @@
+:root {
+  --bg-primary:     #0D1117;
+  --bg-secondary:   #161B22;
+  --bg-card:        #1C2128;
+  --border:         #30363D;
+  --text-primary:   #E6EDF3;
+  --text-secondary: #8B949E;
+  --text-muted:     #6E7681;
+  --accent:         #2F81F7;
+  --accent-hover:   #388BFD;
+  --success:        #3FB950;
+  --font-heading:   'Syne', sans-serif;
+  --font-body:      'Inter', sans-serif;
+  --max-width:      1100px;
+  --section-pad:    120px;
+}
+
