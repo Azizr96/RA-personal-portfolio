@@ -305,6 +305,19 @@ padding: 2px;
   padding: 0 2rem;
 }
 
+.projects-track {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 5px;
+  scroll-snap-type: x mandatory;
+}
+
+.project-card {
+  min-width: 30%;
+  scroll-snap-align: start;
+}
 /* media query */
 @media screen and (max-width: 575px){
   .navbar-collapse {
@@ -326,6 +339,10 @@ padding: 2px;
   border-radius: 4px;
   color: var(--accent);
   transition: background-color 0.2s ease;
+}
+
+.project-card {
+  min-width: 85%;
 }
 
 }
