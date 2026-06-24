@@ -364,6 +364,11 @@ padding: 2px;
 .scroll-right{
   right: 0;
 }
+
+/* contact */
+
+
+
 /* media query */
 @media screen and (max-width: 575px){
   .navbar-collapse {
