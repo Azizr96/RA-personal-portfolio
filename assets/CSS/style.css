@@ -377,6 +377,14 @@ padding: 2px;
   width: 400px;
   margin: 0 auto;
 }
+
+/* footer */
+#footer {
+  max-width: var(--max-width);
+  margin: 10px auto;
+  padding: 1rem 2rem;
+  text-align: right;
+}
 /* media query */
 @media screen and (max-width: 575px){
   .navbar-collapse {
